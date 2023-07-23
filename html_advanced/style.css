@@ -1,0 +1,42 @@
+header, .first {
+    background-image: url(./images/background.png);
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.first  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.the-pros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px;
+    padding: 5px;
+}
+.second {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #C271FF;
+}
+.second:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
