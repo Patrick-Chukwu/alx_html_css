@@ -1,0 +1,212 @@
+body {
+    color: #fff;
+    background-color: burlywood;
+}
+.hero-bg {
+    width: 100%;
+    background-image: url(../html_advanced/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem 2rem 10rem 2rem;
+}
+
+nav {
+
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.first {
+    margin: 16rem auto 4rem auto;
+   
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    /* justify-content: center;
+    align-items: center; */
+}
+.first div {
+  
+
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+h4 {
+    font-family: sans-serif;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #C271FF;
+}
+
+
+.laughs {
+
+
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  
+}
+
+button {
+    margin: 2rem auto 5rem auto;
+    color: black;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    background-color: #C271FF;
+    border-radius : 1em;
+    padding: .5em 2em;
+    
+}
+
+em {
+    color: #C271FF;
+    font-weight: bolder;
+}
+
+.pro {
+ display: flex;
+ flex-direction: column;
+ gap: 10rem;
+}
+
+.the-pros {
+
+    display: flex;
+    justify-content: center;
+    gap: 9em;
+}
+
+.the-pros img {
+    border-radius: 50%;
+}
+
+.second {
+    width: 100%;
+    background-color: #C271FF;
+}
+
+.second > div {
+    width: 100%;
+    padding: 5rem 3rem 5rem 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.one {
+
+    width: 50%;
+    text-align: start;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+.tutorials {
+   
+    background-color: #F2F2F2;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding: 5em;
+   
+}
+
+.clip-container {
+    margin-top: 5rem;
+    display: flex;
+}
+
+.clip-container > div {
+ 
+    width: 20%;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+.clip {
+    padding: 2rem 0 2rem 0;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url(../html_advanced/images/preview.png);
+}
+
+.clip-2 {
+    padding: 2rem 0 2rem 0;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url(../html_advanced/images/preview2.png);
+}
+
+.clip-3 {
+    padding: 2rem 0 2rem 0;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url(../html_advanced/images/preview\ 3.png);
+}
+
+.clip-4 {
+    padding: 2rem 0 2rem 0;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url(../html_advanced/images/preview\ 4.png);
+}
+
+.philip {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+}
