@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<body>
+
+    <div id="error" class="error"></div>
+    <form id="myForm">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Your Name" required>
+
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" placeholder="yourmail@example.com" required>
+
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" placeholder="Input password" required>
+
+        <label for="confirm-password">confirm password</label>
+        <input type="password" name="confirm-password" id="confirm-password" placeholder="Input password again" required>
+        <button type="submit">submit</button>
+    </form>
+
+    <script>
+        let form = document.getElementById("myForm")
+        let password = document.getElementById("password").value;
+        let confirmPassword = document.getElementById("confirm-password").value;
+        let errorMessage = document.getElementById("error");
+
+        form.addEventListener("submit", function(event){
+
+            if (password !== confirmPassword) {
+                errorMessage.textContent = "Password does not match. Please try again!";
+
+                // stop submission
+                event.preventDefault();
+            } else {
+                errorMessage.textContent = "";
+            }
+        })
+    </script>
+</body>
+</html>

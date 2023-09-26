@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <form action="" method="post" id="myForm">
+        <label for="username">username: <input type="text" id="username" placeholder="username" required></label>
+        <label for="password">password: <input type="password" name="password" id="password" placeholder="password" minlength="8" maxlength="30" required></label>
+        
+        <label for="number">Number: <input type="number" name="number" id="number" placeholder="Phone number" minlength="8" maxlength="30" required></label>
+        
+        <label for="email">Email:       <br> <input type="email" name="email" id="email" placeholder="email" required></label>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <label><input type="radio" name="gender" value="male">male</label>
+            <label><input type="radio" name="gender" value="female">female</label>
+        </fieldset>
+        
+        <label for="radio" class="radio-label">Course:</label>
+        <div class="radio"><label for="course">Software engineering <input type="radio" name="course" id="course"></label>
+            <label for="">Graphics design        <input type="radio" name="course" id="graphics-course"></label></div>
+
+        
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+
+        <fieldset>
+            <legend>Geopolitical Zone</legend>
+            <select name="state" id="state">
+                <optgroup label="North-Central">
+                    <option value="KWR">Kwara</option>
+                    <option value="Abuja">Abuja</option>
+                    
+                </optgroup>
+                <optgroup label="South-West">
+                    <option value="LGS">Lagos</option>
+                    <option value="IBD">Ibadan</option>
+                </optgroup>
+     
+            </select>
+        </fieldset>
+      
+        <label for="zip">ZIP Code: <input type="text" name="zip" id="zip" placeholder="ZIP Code" pattern="[0-9]{5}"></label>
+        <button type="submit">submit</button>
+    </form>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

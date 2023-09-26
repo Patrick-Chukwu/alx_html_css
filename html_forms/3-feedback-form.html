@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Your Name" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="youremail@example.com" required>
+
+        <fieldset>
+            <legend>feedback</legend>
+            <label for="excellent"><input type="checkbox" name="excellent" id="excellent" value="excellent" required> excellent</label>
+
+            <label for="good"><input type="checkbox" name="good" id="good" value="good" > good</label>
+
+            <label for="average"><input type="checkbox" name="average" id="average" value="average"> average</label>
+
+            <label for="poor"><input type="checkbox" name="poor" id="poor" value="poor"> poor</label>
+        </fieldset>
+        
+        <input type="file" name="file" id="file" required placeholder="upload file">
+    </form>
+</body>
+</html>

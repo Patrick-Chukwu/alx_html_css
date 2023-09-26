@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cyan;
+}
+
+form {
+    margin: 2rem auto;
+    width: 80%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    background-color: silver;
+    border-radius: 2rem;
+}
+.radio {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-bottom: 0.5em;
+}
+
+.radio-label {
+    margin-top: .5em;
+}
+
+button {
+    margin-left: .5em;
+    width: fit-content;
+    padding: 1em 2em;
+    color: aqua;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+
+}
